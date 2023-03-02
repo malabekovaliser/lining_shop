@@ -1,0 +1,79 @@
+img{
+    width: 100%;
+}
+.logo{
+    width: 100px;
+}
+.kont{
+    margin: 100px auto;
+    width: 900px;
+    background-color: bisque;
+    padding: 20px;
+   
+}
+.menu ul {
+    list-style: none;
+
+}
+.menu li{
+    display: inline-block;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+body{
+    background:url("https://www.theborneopost.com/newsimages/2013/11/pix100001988.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.menu a{
+    text-decoration:none;
+    color: blue;
+    font-size:20px;
+    padding:  0px 10px;
+    display:block;
+    line-height:60px;
+}
+.menu a:hover{
+    background:rgb(206, 228, 10);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flex{
+    display: flex;
+    
+}
+main{
+    width: 600px ;
+}
+aside{
+    width: 300px;
+    padding-left: 30px;
+}
+h1,h2,h3{
+    margin: 20px 0px 10px ;
+}
+p{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content:space-around ;
+    background-color: aquamarine;
+    line-height:100px ;
+    margin-top: 20px;
+    
+}
+
